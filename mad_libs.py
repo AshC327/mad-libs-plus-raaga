@@ -16,12 +16,14 @@ scream = input("Please enter something you would say: ")
 something = input("Enter any one word: ")
 verb_past_tense3 = input("Please enter one more past tense verb: ")
 verb_past_tense4 = input("Please enter one more past tense verb: ")
+adjective = input("Please input an adjective: ")
+new_noun = input("Please input any improper noun: ")
+object = input("Please input a object: ")
+word = input("Please input one word: ")
 
-
-print(f"\tOnce upon a time, {number} years ago, there was knight named {name}. This knight had a companion along for the ride, this {companion} was named {companion_name}. They did not travel anywhere without each other. One day, {name} and {companion_name} stumbled across a cave. A loud {noise} could be heard echoing from the cave. Frightened, {name} and {companion_name} {verb_past_tense} into the cave. They found {any_noun} sitting on the ground, an evil one.")
+print(f"\tOnce upon a {number} years ago, there was knight named {name}. This knight had a companion along for the ride, this {companion} was named {companion_name}. They did not travel anywhere without each other. One day, {name} and {companion_name} stumbled across a cave. A loud {noise} could be heard echoing from the cave. Frightened, {name} and {companion_name} {verb_past_tense} into the cave. They found {any_noun} sitting on the ground, an evil one. This {any_noun1} threw many {plural_noun} at the {adjective1} {name}. {name} and {companion_name} {verb_past_tense1} as fast as possible. {any_noun1} {verb_past_tense2} after them, screaming, '{scream}'.")
 
 any_noun1 = any_noun1.title()
 any_noun = any_noun.title()
 
-print(f"\tThis {any_noun1} threw many {plural_noun} at the {adjective1} {name}. {name} and {companion_name} {verb_past_tense1} as fast as possible. {any_noun1} {verb_past_tense2} after them, screaming, '{scream}'. The duo looked at each other, {verb_past_tense3}, and {verb_past_tense4} {any_noun1} with their special attack based on {something}. {name} and {companion_name} did not live happily every after.") 
-
+print(f"\tThen, all of a sudden, a {adjective} {new_noun} {verb_past_tense3} into the cave, blocking {name} and {companion_name} away from leaving the cave. The duo was extremely scared and did not know what to do. Then, {companion_name} had an idea! {companion_name} and {name} would take a {object} and tie it to the {new_noun}s feet. This plan worked successfully! Then, as {companion_name} and {name} tried to escape again, but {any_noun1} was still right behind them. Both of them looked at each other, nodded and yelled in unison one word, '{word}!'. {any_noun1} was killed in an instant, but {companion_name} was sacrificed with the attack. So, {name} and {companion_name} did not live happily ever after.")
